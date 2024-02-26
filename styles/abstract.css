@@ -1,9 +1,18 @@
 body{
   margin: 0;
   padding: 0;
-  margin-bottom: 40%;
+ 
 }
 
+footer{
+  display: flex;
+  background-color: #000000;
+  color: #fff;
+  height: 400px;
+  font-size: 15px;
+  padding-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 
 nav{
@@ -45,6 +54,10 @@ h2{
   color: #4C5FD5;
 }
 
+.copyright{
+  margin-top: 20px;
+}
+
 .col-sm-6{
   display: flex;
   font-size: 24px;
@@ -67,10 +80,25 @@ h2{
   background-color: #dadbf1;
 }
 
+.footer-list{
+  list-style: none;
+}
+
+.footer-list-1{
+  list-style: none;
+  margin-top: 150px;
+}
 .first-header{
   font-size: 60px;
   font-family: Arial, Helvetica, sans-serif ;
   
+}
+
+.first-list-item{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+
 }
 
 .input{
@@ -97,6 +125,15 @@ h2{
     font-size: 18px;
     cursor: pointer;
     
+}
+
+.list-item{
+  width: 5px;
+}
+
+.list-item:hover{
+ text-decoration: underline;
+ cursor: pointer;
 }
 
 .left-button-link{
@@ -186,6 +223,26 @@ h2{
   color: black;
 }
 
+.second-section{
+  margin: 50px;
+}
+
+.second-section-link{
+  color: #4C5FD5;
+  cursor: pointer;
+}
+
+.second-section-link:hover{
+  text-decoration: underline;
+}
+
+.special-list-item{
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+
 .icon{
   margin-top: 30px;
 }
@@ -198,11 +255,18 @@ h2{
 
 @media  (max-width: 1000px){
   
- 
+ footer{
+  height: 1300px;
+ }
 
   .abstractlogo{
     margin-top: 4px;
     display: flex;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
   }
 
   .row{
@@ -247,6 +311,11 @@ h2{
   padding: 0;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.special-div{
+  display: flex;
+  justify-content: space-between;
 }
  
 }

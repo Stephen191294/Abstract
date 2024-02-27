@@ -15,6 +15,7 @@
               <img class="abstractlogo" src="https://assets-global.website-files.com/5ff3926f03b3ba26b7d639cb/60c388bf3c3ae4d1d10653e7_Abstract_Wordmark-White.svg" alt="abstractlogo">
               <a class="nav-link" href="https://help.abstract.com/hc/en-us">Help Center</a>
             </div>
+            <button class="help-btn"><i class="fa-regular fa-circle-question"></i> Help</button>
             <div class="nav-buttons">
               <a class="left-button-link left-button" href="https://help.abstract.com/hc/en-us/articles/360050382291-Contact-Support">
               Submit a request
@@ -23,11 +24,20 @@
               Sign in
               </a>
             </div>
-            <div class="nav-icons">
-              <i class="fa-solid fa-magnifying-glass fa-2x" style="color:white"></i>
-              <button class="menu-btn">
-                <i class="fa-solid fa-bars fa-2x " style="color:white"></i>
-              </button>
+            <div class="header-icon">
+                <i class="fa-solid fa-magnifying-glass fa-2x" style="color:white"></i>
+                <i class="fa-solid fa-bars fa-2x" onclick="toggleMenu()"></i>
+                </div>
+            </header>
+            <div id="slide-down-menu">
+                <div class="slide-down-menu-text">
+             <a class="nav-links-1">Submit a request</a>
+             <hr>
+             <a class="nav-links">Sign in</a>
+                </div>
+                
+              </div>
+          
             </div>
           </div>
         </nav>
@@ -35,8 +45,10 @@
       <section class="first-section">
         <h1 class="first-header">How can we help?</h1>
         <div class="input-container">
+          <form>
           <input class="input" placeholder="Search">
           <button class="arrow">&rarr;</button>
+          </form>
         </div>
       </section>
       <section class="second-section">

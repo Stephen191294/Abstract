@@ -12,3 +12,11 @@ function toggleMenu() {
       menuIcon.innerHTML = "&#9776;"; // Menu icon
   }
 }
+
+
+document.getElementById('menu-icon').addEventListener('click', function() {
+  // Toggle visibility of menu icon and close icon
+  document.getElementById('menu-icon').style.display = 'none';
+  document.getElementById('close-icon').style.display = 'inline';
+});
+
